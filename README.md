@@ -1,0 +1,2 @@
+# LatihanPython
+python code 
