@@ -249,6 +249,7 @@ class sx126x:
             time.sleep(0.5)
             r_buff = self.ser.read(self.ser.inWaiting())
             
+	    # sending the data to cloud (antares.id) while it receiving from transmitter
             antares.send(str(r_buffr_buff[2:-1]), 'Sungai', 'node1')
 			print("receive message from address\033[1;32m %d node \033[0m"%((r_buff[0]<<8)+r_buff[1]),end='\r\n',flush = True)
             print("message is "+str(r_buff[2:-1]),end='\r\n')
