@@ -19,11 +19,17 @@ There are three code above, two of them are transmitter and receiver with almost
 6. Open your [Antares](https://antares.id) project that have been linked to receiver node
 7. The DHT11 sensor data can be seen on [Antares](https://antares.id) interface
 
+
+
 ![Copy of IMG_20211118_175421](https://user-images.githubusercontent.com/57405134/224116148-092b9b73-9080-416b-8d2c-5b548efac409.jpg)
 Assembled Components
 
+
+
 ![IMG_20211118_174842 (1)](https://user-images.githubusercontent.com/57405134/224116198-1c7de213-cedb-4893-abf6-8ec19471278d.jpg)
 Components
+
+
 
 ![IMG_20220116_164616_708 (1)](https://user-images.githubusercontent.com/57405134/224116225-2e00e4f2-d492-44f3-8b07-7f9f1482ea7d.jpg)
 Result
