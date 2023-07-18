@@ -2,11 +2,11 @@
 ## Hello I'm Akhsan
 
 This is my first IoT project using LoRa HAT for Raspberry Pi. In this project, I use Semtech module of LoRa sx1268 assembled by [Waveshare](https://www.waveshare.com
-). There are two kind of devices needed, transmitter and receiver. The IoT system works by sending DHT11 sensor data from transmitter to receiver. Receiver must be connected to the internet, so the sensor data can be uploaded to cloud (in this case I use [Antares Platform](https://antares.id)).
+). There are two kind of devices needed, transmitter and receiver. This IoT system works by sending DHT11 sensor data from transmitter to receiver. Receiver must be connected to the internet, so the sensor data can be uploaded to cloud (in this case I use [Antares Platform](https://antares.id)).
 
 In this tutorial I use [Waveshare Documentation](https://www.waveshare.com/w/upload/1/18/SX126X_LoRa_HAT_CODE.zip) and modified it for assembling additional sensor program and connectivity to the Internet Protocol (HTTP).
 
-There are three code above, two of them are transmitter and receiver with almost same program (transmitter has additional line of program to read DHT11 sensor). The other one is used for sx1268 library.
+There are three Python codes above, two of them are transmitter and receiver with almost same program (transmitter has additional line of program to read DHT11 sensor). The other one is used for sx1268 library.
 
 ### Note: under the same frequency, receiver node can send data to transmitter node, similarly as the transmitter node can send data to receiver node. Otherwise two nodes must have suitable address each other
 
