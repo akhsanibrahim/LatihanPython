@@ -8,7 +8,7 @@ In this tutorial I use [Waveshare Documentation](https://www.waveshare.com/w/upl
 
 There are three Python codes above, two of them are transmitter and receiver with almost same program (transmitter has additional line of program to read DHT11 sensor). The other one is used for sx1268 library.
 
-### Note: under the same frequency, receiver node can send data to transmitter node, similarly as the transmitter node can send data to receiver node. Otherwise two nodes must have suitable address each other
+### Note: Under the same frequency, receiver node can send data to transmitter node, similarly as the transmitter node can send data to receiver node. In other word, two nodes must have suitable address each other
 
 ## How to operate this system
 1. Make sure each node have been attached to Raspberry Pi as microcontroller
